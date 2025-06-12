@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2025 - Cultivando o Futuro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="overflow-x-hidden">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <img src="image.png" alt="Agrinho Logo" class="h-8 w-8">
+                    <span class="ml-2 text-xl font-bold text-green-800">Agrinho 2025</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-green-800 hover:text-green-600 px-3 py-2 font-medium">Início</a>
+                    <a href="#about" class="text-green-800 hover:text-green-600 px-3 py-2 font-medium">Sobre</a>
+                    <a href="#projects" class="text-green-800 hover:text-green-600 px-3 py-2 font-medium">Projetos</a>
+                    <a href="#technologies" class="text-green-800 hover:text-green-600 px-3 py-2 font-medium">Tecnologias</a>
+                    <a href="#team" class="text-green-800 hover:text-green-600 px-3 py-2 font-medium">Equipe</a>
+                    <a href="#contact" class="text-green-800 hover:text-green-600 px-3 py-2 font-medium">Contato</a>
+                </div>
+                <div class="md:hidden">
+                    <button class="mobile-menu-button p-2 rounded-md text-green-800 focus:outline-none">
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div class="mobile-menu hidden md:hidden bg-white">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col">
+                <a href="#home" class="text-green-800 hover:text-green-600 block px-3 py-2 font-medium">Início</a>
+                <a href="#about" class="text-green-800 hover:text-green-600 block px-3 py-2 font-medium">Sobre</a>
+                <a href="#projects" class="text-green-800 hover:text-green-600 block px-3 py-2 font-medium">Projetos</a>
+                <a href="#technologies" class="text-green-800 hover:text-green-600 block px-3 py-2 font-medium">Tecnologias</a>
+                <a href="#team" class="text-green-800 hover:text-green-600 block px-3 py-2 font-medium">Equipe</a>
+                <a href="#contact" class="text-green-800 hover:text-green-600 block px-3 py-2 font-medium">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg min-h-screen flex items-center justify-center text-white pt-16">
+        <div class="container mx-auto px-6 md:px-12">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-12 md:mb-0">
+                    <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
+                        Cultivando <span class="text-yellow-300">o Futuro</span> com Tecnologia
+                    </h1>
+                    <p class="text-xl mb-8">
+                        O Agrinho 2025 revoluciona a agricultura sustentável através de soluções inovadoras e inteligência artificial.
+                    </p>
+                    <div class="flex flex-wrap gap-4">
+                        <button class="bg-yellow-400 hover:bg-yellow-500 text-green-900 font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105 shadow-lg">
+                            Saiba Mais <i class="fas fa-arrow-right ml-2"></i>
+                        </button>
+                        <button class="border-2 border-white hover:bg-white hover:text-green-800 font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105">
+                            <i class="fas fa-play mr-2"></i> Vídeo Explicativo
+                        </button>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Sobre o Projeto Agrinho 2025</h2>
+                <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
+            </div>
+            
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0 md:pr-10">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1475&q=80" alt="Agricultura tecnológica" class="rounded-xl shadow-lg w-full">
+                        <div class="absolute -bottom-6 -right-6 bg-yellow-400 p-4 rounded-xl shadow-lg">
+                            <h4 class="text-xl font-bold text-green-800">10+ Anos</h4>
+                            <p class="text-green-900">de pesquisa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <h3 class="text-2xl md:text-3xl font-bold text-green-800 mb-6">Revolucionando a Agricultura com Inovação</h3>
+                    <p class="text-gray-600 mb-6">
+                        O Projeto Agrinho 2025 representa uma convergência única entre agricultura tradicional e tecnologias de ponta. 
+                        Nossa missão é desenvolver soluções escaláveis que aumentem a produtividade enquanto preservam os recursos naturais.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Utilizando inteligência artificial, IoT e biotecnologia, criamos sistemas agrícolas inteligentes que podem ser implementados 
+                        desde pequenas propriedades familiares até grandes operações comerciais.
+                    </p>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-green-600">
+                            <i class="fas fa-leaf text-green-600 text-3xl mb-3"></i>
+                            <h4 class="font-bold text-green-800 mb-2">Sustentabilidade</h4>
+                            <p class="text-gray-600 text-sm">Redução de 40% no uso de água e produtos químicos</p>
+                        </div>
+                        <div class="bg-white p-6 rounded-xl shadow-md border-l-4 border-yellow-400">
+                            <i class="fas fa-chart-line text-yellow-500 text-3xl mb-3"></i>
+                            <h4 class="font-bold text-green-800 mb-2">Produtividade</h4>
+                            <p class="text-gray-600 text-sm">Aumento de até 60% na produção agrícola</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20 bg-green-800 text-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Nossa Abordagem Inovadora</h2>
+                <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
+                <p class="max-w-2xl mx-auto mt-6 text-green-100">
+                    Combinamos as mais avançadas tecnologias para criar soluções personalizadas para cada tipo de cultivo e região.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-green-700 bg-opacity-40 p-8 rounded-xl hover:bg-opacity-60 transition-all duration-300 card-hover">
+                    <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-robot text-2xl text-yellow-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-center">IA Agrícola</h3>
+                    <p class="text-green-100 text-center">
+                        Nossos algoritmos de inteligência artificial analisam dados em tempo real para tomar decisões precisas sobre irrigação, 
+                        controle de pragas e colheita ideal.
+                    </p>
+                </div>
+                <div class="bg-green-700 bg-opacity-40 p-8 rounded-xl hover:bg-opacity-60 transition-all duration-300 card-hover">
+                    <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-satellite-dish text-2xl text-yellow-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-center">Sensores IoT</h3>
+                    <p class="text-green-100 text-center">
+                        Rede de sensores que monitoram umidade do solo, condições meteorológicas, saúde das plantas e previnem doenças antes que se espalhem.
+                    </p>
+                </div>
+                <div class="bg-green-700 bg-opacity-40 p-8 rounded-xl hover:bg-opacity-60 transition-all duration-300 card-hover">
+                    <div class="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mb-6 mx-auto">
+                        <i class="fas fa-dna text-2xl text-yellow-400"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4 text-center">Biotecnologia</h3>
+                    <p class="text-green-100 text-center">
+                        Pesquisa e desenvolvimento de cultivares adaptadas às mudanças climáticas, com maior resistência e valor nutricional.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Nossos Projetos em Destaque</h2>
+                <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
+                <p class="max-w-2xl mx-auto mt-6 text-gray-600">
+                    Soluções práticas e inovadoras que já estão transformando a agricultura em todo o país.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="rounded-xl overflow-hidden shadow-lg card-hover">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1585011650347-c59dbef5a823?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Drone agrícola" class="w-full h-64 object-cover">
+                        <div class="absolute top-4 left-4 bg-yellow-400 text-green-900 font-bold px-3 py-1 rounded-full text-sm">
+                            Em Destaque
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-800 mb-2">Drones Inteligentes</h3>
+                        <p class="text-gray-600 mb-4">
+                            Frota de drones equipados com sensores multiespectrais para monitoramento de larga escala e aplicação precisa de insumos.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-green-600 font-medium">
+                                <i class="fas fa-map-marker-alt mr-1"></i> Implantado em 5 estados
+                            </span>
+                            <button class="text-green-700 hover:text-green-900 font-medium">
+                                Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="rounded-xl overflow-hidden shadow-lg card-hover">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Estufa inteligente" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-800 mb-2">Estufas Autônomas</h3>
+                        <p class="text-gray-600 mb-4">
+                            Sistemas de cultivo protegido com controle climático automatizado, otimizando crescimento de hortaliças em qualquer região.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-green-600 font-medium">
+                                <i class="fas fa-chart-line mr-1"></i> +80% produtividade
+                            </span>
+                            <button class="text-green-700 hover:text-green-900 font-medium">
+                                Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="rounded-xl overflow-hidden shadow-lg card-hover">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1558981852-426c6c22a060?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Mercado digital" class="w-full h-64 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-green-800 mb-2">AgroConnect</h3>
+                        <p class="text-gray-600 mb-4">
+                            Plataforma digital que conecta pequenos produtores diretamente a compradores, eliminando intermediários e aumentando lucros.
+                        </p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-sm text-green-600 font-medium">
+                                <i class="fas fa-users mr-1"></i> 3.500+ usuários
+                            </span>
+                            <button class="text-green-700 hover:text-green-900 font-medium">
+                                Ver detalhes <i class="fas fa-arrow-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-8 rounded-full transition-all transform hover:scale-105 shadow-md">
+                    Ver Todos os Projetos <i class="fas fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="py-16 bg-green-700 text-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold mb-2 pulse-animation">25+</div>
+                    <div class="text-green-200 text-lg">Municípios Atendidos</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold mb-2 pulse-animation">1.200+</div>
+                    <div class="text-green-200 text-lg">Produtores Beneficiados</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold mb-2 pulse-animation">45%</div>
+                    <div class="text-green-200 text-lg">Redução no Uso de Água</div>
+                </div>
+                <div class="p-6">
+                    <div class="text-4xl md:text-5xl font-bold mb-2 pulse-animation">R$ 5,2mi</div>
+                    <div class="text-green-200 text-lg">Economia Gerada</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section id="technologies" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Tecnologias Utilizadas</h2>
+                <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
+                <p class="max-w-2xl mx-auto mt-6 text-gray-600">
+                    A vanguarda tecnológica aplicada ao campo, transformando desafios em oportunidades.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10 items-center mb-16">
+                <div class="order-2 md:order-1">
+                    <h3 class="text-2xl md:text-3xl font-bold text-green-800 mb-6">Visão Computacional para Agricultura de Precisão</h3>
+                    <p class="text-gray-600 mb-6">
+                        Desenvolvemos algoritmos de aprendizado de máquina que analisam imagens de cultivos para identificar pragas, doenças 
+                        e deficiências nutricionais com precisão superior a 92%. Nosso sistema classifica e quantifica problemas antes que 
+                        se tornem visíveis ao olho humano.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2"></i>
+                            <span class="text-gray-600">Detecção precoce de problemas em tempo real</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2"></i>
+                            <span class="text-gray-600">Análise de padrões para prever safras</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-600 mt-1 mr-2"></i>
+                            <span class="text-gray-600">Integração com sistemas de irrigação e fertilização</span>
+                        </li>
+                    </ul>
+                    <button class="mt-6 bg-green-700 hover:bg-green-800 text-white font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105">
+                        Documentação Técnica <i class="fas fa-book-open ml-2"></i>
+                    </button>
+                </div>
+                <div class="order-1 md:order-2">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80" alt="Visão computacional" class="rounded-xl shadow-xl w-full">
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1523961131990-5ea7c61b2107?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80" alt="Blockchain" class="rounded-xl shadow-xl w-full">
+                </div>
+                <div>
+                    <h3 class="text-2xl md:text-3xl font-bold text-green-800 mb-6">Blockchain para Rastreabilidade</h3>
+                    <p class="text-gray-600 mb-6">
+                        Implementamos uma solução descentralizada que registra e verifica cada etapa da cadeia produtiva - do plantio ao consumidor final. 
+                        Isso garante transparência, autenticidade e valorização dos produtos agrícolas.
+                    </p>
+                    <div class="bg-green-50 border-l-4 border-green-600 p-4 mb-6 rounded">
+                        <h4 class="font-bold text-green-800 mb-2">Benefícios do Sistema:</h4>
+                        <ul class="list-disc list-inside text-gray-600 space-y-1">
+                            <li>Certificação de origem e qualidade</li>
+                            <li>Redução de fraudes e adulterações</li>
+                            <li>Comunicação direta com o consumidor</li>
+                            <li>Pagamentos mais justos ao produtor</li>
+                        </ul>
+                    </div>
+                    <button class="bg-yellow-400 hover:bg-yellow-500 text-green-900 font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105">
+                        Ver Demos <i class="fas fa-external-link-alt ml-2"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <div class="mt-16 bg-gradient-to-r from-green-700 to-green-600 rounded-xl shadow-xl p-8 md:p-12 text-white">
+                <div class="flex flex-col md:flex-row items-center">
+                    <div class="md:w-2/3 mb-8 md:mb-0">
+                        <h3 class="text-2xl md:text-3xl font-bold mb-4">IoT e Big Data no Campo</h3>
+                        <p class="mb-6 text-green-100">
+                            Nossa rede de sensores coleta milhões de pontos de dados diariamente, alimentando um sistema de análise preditiva que 
+                            ajuda agricultores a tomar decisões baseadas em evidências e antecipar eventos climáticos.
+                        </p>
+                        <button class="bg-white hover:bg-gray-100 text-green-800 font-bold py-3 px-6 rounded-full transition-all transform hover:scale-105">
+                            Requisitar Demonstração <i class="fas fa-laptop-code ml-2"></i>
+                        </button>
+                    </div>
+                    <div class="md:w-1/3 flex justify-center">
+                        <img src="https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="IoT" class="h-48 rounded-lg shadow-md">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-green-800 mb-4">Nossa Equipe Multidisciplinar</h2>
+                <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
+                <p class="max-w-2xl mx-auto mt-6 text-gray-600">
+                    Especialistas em agricultura, tecnologia e sustentabilidade trabalhando juntos para criar soluções inovadoras.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols
+</body>
+</html>
